@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="th">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Question Form</title>
+    <title>แบบฟอร์มถาม-ตอบ</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -37,16 +37,16 @@
 </head>
 <body>
     <form action="submit_question.php" method="POST">
-        <label for="name">Your Name:</label>
+        <label for="name">ชื่อของคุณ:</label>
         <input type="text" id="name" name="name" required>
 
-        <label for="email">Your Email:</label>
+        <label for="email">อีเมลของคุณ:</label>
         <input type="email" id="email" name="email" required>
 
-        <label for="question">Your Question:</label>
+        <label for="question">คำถามของคุณ:</label>
         <textarea id="question" name="question" rows="4" required></textarea>
 
-        <input type="submit" value="Submit Question">
+        <input type="submit" value="ส่งคำถาม">
     </form>
 </body>
 </html>
